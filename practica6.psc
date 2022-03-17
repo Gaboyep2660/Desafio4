@@ -9,7 +9,7 @@ Algoritmo sin_titulo
 	leer cantidad
 	mostrar "Cuanto es la tasa de cambio $ -> Bs actual:"
 	leer tasa_cambio
-	
+//	Hola
 	precio_en_tasa <- precio*tasa_cambio
 	
 	mostrar "el precio en Bs del producto es " precio_en_tasa
@@ -23,7 +23,7 @@ Algoritmo sin_titulo
 	sub_total_menos_descuento <- sub_total-monto_descuento
 	monto_iva <- sub_total_menos_descuento*0.16
 	monto_total <- sub_total_menos_descuento+monto_iva
-	
+//	Gabriel estuvo por aca XDXD
 	mostrar "El sub total a pagar es " sub_total "$ o " precio_en_tasa*cantidad " bs"
 	mostrar "El porcentaje de descuento es " porc_descuento "% que equivale son " 
 	mostrar monto_descuento "$"
